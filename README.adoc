@@ -11,7 +11,7 @@ Grails Engine is Opensource framework for repaid web development using react, ma
 . Run ```yarn install`` from the project root
 . (For Intellij IDEA Select the Project GrailsEngine) Run the Grails Project
 . For Start UI run ```yarn start-rma```
-. Login Credential *grails.engine@hmtmcse.com* *openIt*
+. Login Credential *Email: grails.engine@hmtmcse.com* *Password: openIt*
 
 
 
