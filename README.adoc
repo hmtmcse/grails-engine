@@ -1,0 +1,17 @@
+== Grails Engine
+Grails Engine is Opensource framework for repaid web development using react, material ui and swagger
+
+
+== Project Setup
+. Run this following script into your bash ```curl https://raw.githubusercontent.com/hmtmcse/grails-engine/master/bismillah.sh -o bismillah.sh && bash bismillah.sh``` Or Clone the application using git bash or other git client ```git clone https://github.com/hmtmcse/grails-engine.git```
+. Import the project Intellij IDEA or other IDE as a Gradle Project
+. Find the root directory *build.gradle* file and run the task *resolveDependencies*
+. Configure the database configuration projectRoot/GrailsEngine/grails-app/conf/config/application.yml
+. Configure your pc as react application compatible.
+. Run ```yarn install`` from the project root
+. (For Intellij IDEA Select the Project GrailsEngine) Run the Grails Project
+. For Start UI run ```yarn start-rma```
+. Login Credential *grails.engine@hmtmcse.com* *openIt*
+
+
+

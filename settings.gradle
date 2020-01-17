@@ -1,0 +1,34 @@
+rootProject.name = 'GrailsEngine'
+include 'GrailsEngine'
+
+def includeProjects(String rootPath) {
+    String modulePath
+    File modulePathFile
+    [
+            "${geModules}",
+            "${geGrailsModules}",
+    ].each { mod ->
+        modulePath = "${rootPath}${mod}"
+        modulePathFile = file(modulePath)
+        if (modulePathFile.exists()) {
+            modulePathFile.list().each { name ->
+                if (name != "empty") {
+                    include(name)
+                    project(":${name}").projectDir = file(modulePath + name)
+                }
+            }
+        }
+    }
+}
+includeProjects("${geEngineModules}")
+
+
+File geApplicationModulesPath = file(geApplicationModules)
+if (geApplicationModulesPath.exists()){
+    geApplicationModulesPath.list().each {
+        if(it != "empty"){
+            includeProjects("${geApplicationModules}${it}/")
+        }
+    }
+}
+
