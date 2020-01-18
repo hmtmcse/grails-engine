@@ -2,7 +2,7 @@
 
 PROJECT_DIR="grails-engine"
 echo "Cloning Project from GitHub"
-git clone --branch new-structure https://github.com/hmtmcse/grails-engine.git "$PROJECT_DIR"
+git clone --branch master https://github.com/hmtmcse/grails-engine.git "$PROJECT_DIR"
 cd "$PROJECT_DIR"
 
 echo "Resolving Project Dependency"
