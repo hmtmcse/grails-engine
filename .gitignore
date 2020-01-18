@@ -12,6 +12,7 @@ out/
 .settings
 .classpath
 node_modules
+out
 
 engine-modules/*
 !engine-modules/modules/app-api-test
