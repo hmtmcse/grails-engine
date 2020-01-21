@@ -14,6 +14,8 @@ out/
 node_modules
 out
 
+application-modules/*
+!application-modules/empty
 engine-modules/*
 !engine-modules/modules/app-api-test
 !engine-modules/modules/codenarc-rule
