@@ -2,6 +2,9 @@
 tmApp:
     baseURL: 'http://localhost:6601/'
 
+grailsEngine:
+    disableDefaultUrlMapping: false
+
 
 ---
 grails:
