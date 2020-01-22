@@ -8,6 +8,8 @@ grailsEngine:
 
 ---
 grails:
+    resources:
+        pattern: ['/**']
     cors:
         enabled: true
     profile: web
