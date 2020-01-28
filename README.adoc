@@ -1,6 +1,12 @@
 == Grails Engine
 Grails Engine is Opensource framework for repaid web development using react, material ui and swagger
 
+== Environment setup
+. Download & Install nodejs LTS version from here https://nodejs.org/en/download/
+. Download and Install JDK 11 from here https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase11-5116896.html
+. Download and Install Git Bash from here https://git-scm.com/downloads
+. Open git bash and then run the command
+.. ```npm install -g yarn```
 
 == Project Setup
 . Run this following script into your bash ```curl https://raw.githubusercontent.com/hmtmcse/grails-engine/master/bismillah.sh -o bismillah.sh && bash bismillah.sh``` Or Clone the application using git bash or other git client ```git clone https://github.com/hmtmcse/grails-engine.git```
