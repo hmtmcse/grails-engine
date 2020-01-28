@@ -14,7 +14,7 @@ Grails Engine is Opensource framework for repaid web development using react, ma
 . Find the root directory *build.gradle* file and run the task *resolveDependencies*
 . Configure the database configuration projectRoot/GrailsEngine/grails-app/conf/config/application.yml
 . Configure your pc as react application compatible.
-. Run ```yarn install`` from the project root
+. Run ```yarn install``` from the project root
 . (For Intellij IDEA Select the Project GrailsEngine) Run the Grails Project
 . For Start UI run ```yarn start-rma```
 . Login Credential *Email: grails.engine@hmtmcse.com* *Password: openIt*
