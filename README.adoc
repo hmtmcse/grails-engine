@@ -4,6 +4,7 @@ Grails Engine is Opensource framework for repaid web development using react, ma
 == Environment setup
 . Download & Install nodejs LTS version from here https://nodejs.org/en/download/
 . Download and Install JDK 11 from here https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase11-5116896.html
+. Download and Install XAMPP for MySQL https://www.apachefriends.org/download.html
 . Download and Install Git Bash from here https://git-scm.com/downloads
 . Open git bash and then run the command
 .. ```npm install -g yarn```
