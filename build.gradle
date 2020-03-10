@@ -188,6 +188,8 @@ def projectDependencies = [
                 "dependencies" : [
                         "java-date-time-util" : "https://github.com/hmtmcse/java-date-time-util.git",
                         "java-crypto-and-auth" : "https://github.com/hmtmcse/java-crypto-and-auth.git",
+                        "parser4java" : "https://github.com/hmtmcse/parser4java.git",
+                        "java-file-util" : "https://github.com/hmtmcse/java-file-util.git",
                 ]
         ],
         [
